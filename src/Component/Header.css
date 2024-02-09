@@ -1,0 +1,49 @@
+/* Header.css */
+
+/* Header container */
+.header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding for the header */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+}
+
+/* Logo and title */
+.logo {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+}
+
+.logo img {
+  width: 50px; /* Set width of the logo image */
+  height: 50px; /* Set height of the logo image */
+  margin-right: 10px; /* Add some spacing between the logo and title */
+}
+
+/* Navbar */
+.navbar {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+}
+
+/* Navbar links */
+.navbar-nav {
+  list-style-type: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for layout */
+}
+
+.nav-item {
+  margin-left: 20px; /* Add some spacing between each nav item */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Change color on hover */
+}
